@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-test",
+  "version": "1.0.0",
+  "description": "vuewpressTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.60",
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta.60",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
